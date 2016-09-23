@@ -1,103 +1,29 @@
 ---
 layout: post
-title: Syntax Highlighting Post
-description: "Demo post displaying the various ways of highlighting code in Markdown."
-modified: 2016-06-01T15:27:45-04:00
-tags: [sample post, code, highlighting]
+title: شروع وبلاگی دیگر از برنامه نویسی دیگر
+description: "اولین مطلب وبلاگ برنامه نویسی دیگر بر مبنای دانسته ها و تجربیات صادق علوی زاده"
+modified: 2016-09-23T23:02:45-04:0
+tags: [introduction]
 image:
   feature: abstract-10.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
+از اینکه دوباره قصد شروع کردن یک وبلاگ جدید رو دارم خیلی هیجان دارم.
 
-[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
+در این وبلاگ که بصورت تخصصی حول محور موضوعات برنامه نویسی میگردد سعی میکنم مطالبی بنویسم که برای هر برنامه نویسی در هر سطحی از تخصص و یا هر زبان برنامه نویسی مفید باشد.
 
-### GFM Code Blocks
+البته قطعا لابلای مطالب که در مورد متدها و روشها صحبت خواهیم کرد نیاز به کد نمونه وجود خواهد بود که با توجه به تخصص خودم و سطح مقاله سعی میکنم از زبانهای عمومی تر انتخاب شده باشند.
 
-GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
+البته هر وبلاگ نویسی معمولا در ابتدای راه اندازی یک وبلاگ اهداف و قراردادهایی رو در ذهن خود برای نوشتن دارد ولی در ادامه راه با جلو رفتن و نوشتن هرچه بیشتر و ارتباط با مخاطبان ممکن است از اهداف اولیه و یا چهارچوبهای خود کمی دور شود، که این امری طبیعی می باشد.
 
-```css
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-```
+قصد من از نوشتن در این وبلاگ به اشتراک گذاری تجربیات و دانسته های خودم می باشد و البته در میان آن بسیار از بزرگان، کتب و دیگر برنامه نویسان نقل قول خواهم کرد.
 
-{% highlight scss %}
-.highlight {
-  margin: 0;
-  padding: 1em;
-  font-family: $monospace;
-  font-size: $type-size-7;
-  line-height: 1.8;
-}
-{% endhighlight %}
+من بر اساس تجربه سالهای گذشته و همچنین وضعیت موجود در بین دانشجویان و علاقه مندان به موضوع برنامه نویسی، فکر میکنم شاید امروز بیش از قبل نیاز آموزش پایه ای و اساسی علوم و فنون برنامه نویسی و مباحث پیرامون آن مانند کاری تیمی، نحوه تفکر برنامه نویسی، روشهای خلاقانه حل مسئله و دیگر موارد حس میگردد.
 
-```html
-{% raw %}<nav class="pagination" role="navigation">
-  {% if page.previous %}
-    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous   article</a>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-  {% endif %}
-</nav><!-- /.pagination -->{% endraw %}
-```
+من قصد دارم در **در حد خودم** تا جاییکه ممکن است در پر کردن این خلاء اقدام کنم.
 
-{% highlight html linenos %}
-{% raw %}<nav class="pagination" role="navigation">
-  {% if page.previous %}
-    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-  {% endif %}
-</nav><!-- /.pagination -->{% endraw %}
-{% endhighlight %}
+خوب برای پست اول فکر کنم زیاد طولانی ننویسم بهتر است.
 
-```ruby
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-```
-:boom:
+امیدوارم که مطالب این وبلاگ برای شما مفید باشد و این سعی من بتواند گامی هر چند کوچک در جهت رشد و اعتلای این صنعت در کشورم بردارد.
 
-### Code Blocks in Lists
-
-Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., `1.`). Usually this will mean indenting 3 spaces instead of 4.
-
-1. Do step 1.
-2. Now do this:
-
-   ```ruby
-   def print_hi(name)
-     puts "Hi, #{name}"
-   end
-   print_hi('Tom')
-   #=> prints 'Hi, Tom' to STDOUT.
-   ```
-
-3. Now you can do this.
-
-### GitHub Gist Embed
-
-An example of a Gist embed below.
-
-{% gist mmistakes/6589546 %}
+شاد و سربلند باشید
