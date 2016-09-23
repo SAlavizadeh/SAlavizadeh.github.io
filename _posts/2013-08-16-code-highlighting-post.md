@@ -77,6 +77,7 @@ module Jekyll
   end
 end
 ```
+:boom:
 
 ### Code Blocks in Lists
 
