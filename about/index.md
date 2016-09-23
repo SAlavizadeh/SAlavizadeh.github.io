@@ -1,32 +1,27 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: درباره این سایت و نویسنده آن
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: false
-modified: 2016-02-01
+modified: 2016-09-23
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
+اول خیلی خوشحالم که دانستن درباره این وبلاگ و نویسنده آن برایتان اهمیت داشته است.
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
+معمولا رسم هست در صفحه درباره لیستی از تخصصها و کارهای اجرایی و تحصیلات و از این قبیل مطالب را ببینید. ولی من قصد ندارم در این مورد چیزی بنویسم. تنها به این نکته اشاره میکنم که از سال ۱۳۷۳ وارد دنیای برنامه نویسی شده ام و چند سالی (تقریبا از ۱۳۸۵ تا ۱۳۹۱) بدلیل مسوءلیتهایی که داشتم بعنوان مدیرعامل و یا مدیر فروش و چند سمت دیگر، بصورت تمام وقت برنامه نویسی نمیکردم و تنها برای مکانیزه کردن برخی از کارها و فعالیتها چند برنامه ای نوشتم.
+از سال 1390 هم وارد فعالیتهای آموزشی شدم که از تدریس  تا مدیریت موسسه آموزشی را شامل میشده است.
 
-## HPSTR Features:
+تمام تلاش من در این وبلاگ اینست که در مورد برنامه نویسی و دنیای پیرامون آن برای علاقه مندان و دوستان بنویسم.
 
-* Compatible with Jekyll 3 and GitHub Pages.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet animated menu.
-* Background image support.
-* Support for large images to call out your favorite posts.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Syntax highlighting]({{ site.url }}/code-highlighting-post/) stylesheets to make your code examples look snazzy.
+در این بین هم از دانسته ها و تجربیات خودم در برنامه نویسی و دیگر موضوعات استفاده کرده و خواهم کرد و هم از مطالبی که بصورت مرتب می خوانم و می آموزم.
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
+یکی از بزرگترین لذتهای زندگی من فراگیری نکات و مطالب جدید و بعد از آن بکار گیری و در نهایت آموزش و انتقال آن به دیگران است.
 
-[^1]: Example: *domain.com/category-name/post-title*
+سعی میکنم تا حد امکان از ترجمه مستقیم و بدون تحقیق مطالب اجتناب کنم چرا که به نظر از این قبیل مطالب امروزه بسیار زیاد به چشم می خورد و در این مجال من قصد دارم مطالبی که فرا گرفته ام را بعد از استفاده و یا حداقل تحقیق بیشتر انتقال دهم.
+
+وبلاگ نویسی را نیز از سالهای ابتدایی شروع موج آن در ایران انجام میداده ام که البته به دلیل فراز و نشیبهای فراوان بسیاری از آنها دیگر الان وجود خارجی ندارند.
+
+در نهایت علاقه مند به ارتباط و شبکه سازی با دیگر برنامه نویسان و همکاران می باشم.
